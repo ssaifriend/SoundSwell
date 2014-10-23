@@ -1,0 +1,55 @@
+body > span { display: block; position: absolute; right: 10px; top: 10px; cursor:pointer; }
+body > p { display: block; position: absolute; right: 10px; top: 25px; }
+
+#BGA { background: #000001; position: absolute; left: 600px; top: 125px; z-index: 2; }
+#BGALayer { position: absolute; left:600px; top: 125px; z-index: 3; }
+#Play, #Gear, #Speed, #Score, #Grade { position: absolute; border: 0; z-index: 10; }
+#Gear, #Play { left: 0; }
+#Gear {  bottom: 0; }
+#Play { z-index: 11; top: 0; }
+#Speed { left: 0; bottom: 15px; }
+#Score { left: 330px; bottom: 23px; }
+#Grade { left: 430px; bottom: 187px; }
+
+.load { position: absolute; left: 20px; top: 20px; z-index: 6; font-size:14px; color: white; font-weight: bold; }
+#loadStatus2 { top: 60px; }
+#loadingImage { position: absolute; left:0; top:0; z-index: 5; background: white; }
+
+#gameOption { float: left; margin-left: 10px; width: 100%; display: none; }
+#gameOption > li { margin-bottom: 10px; }
+#gameOption li ul { list-style: none; padding-left: 0; }
+#gameOption li ul li { display: inline; cursor:pointer; }
+#gameOption .select { font-weight: bold; }
+
+#keyUserInput { background: white; position: absolute; right: 100px; top: 100px; padding: 10px; border: 1px solid #000; display:none; z-index:3 }
+#keyUserInput table { border-collapse: collapse; }
+#keyUserInput td, #keyUserInput th { padding: 5px; border: 1px solid #000; height: 20px; }
+#keyUserInput td { cursor:pointer; }
+#keyUserInput p { position: absolute; right: 0; bottom: 0; }
+#keyUserInput p span { cursor:pointer; }
+
+#playStatus { height: 25px; position: absolute; bottom: 5px; left: 0; z-index: 4; }
+#playStatus > div { border: 1px solid #000; height: 15px; margin-top: 5px; margin-right: 10px; float: left; position:relative; }
+#playStatus > div > div { height: 15px; background: #000; position: absolute; left:0; top: 0; }
+#playStatus span { float: left; display: block; margin-right: 10px; padding-top: 5px; }
+
+#bgaPosition { position: absolute; left:0; top:0; width: 100%; background: white; display:none; z-index:5; }
+#bgaPosition > img { position: absolute; left: 0; bottom: 0; z-index:2 }
+#bgaPosition .bgaPattern { position: absolute; left:0; top:0; z-index:1 }
+#bgaPosition .bgaSelect { border: 1px solid #000; position: absolute; background: white; z-index:5; }
+#bgaPosition .bgaSelect > div { border: 1px solid #000; background: #000; height: 3px; width: 3px; cursor: nw-resize; position:absolute; right: -2px; bottom: -2px; z-index:6; }
+#bgaPosition > span { position: absolute; right: 50px; top: 50px; z-index:10; }
+#bgaPosition > span > span { cursor: pointer; }
+
+#result { background-image: url("/images/result.jpg"); }
+#fps { position: absolute; right: 30px; top: 100px; }
+
+.thumbnail img { width: 100%; height: 100%; }
+.col-lg-2 { margin-bottom: 20px; }
+#selectBMS { width: 1120px; height: 665px; background: white; position: absolute; display: none; }
+#selectBMS .panel-body .image { float: left; width: 790px; }
+#selectBMS .panel-body .list { float: left; width: 280px; margin-left: 10px; }
+#selectBMS .panel-body .image img { width: 100%; }
+#selectBMS .panel-body ul.nav-stacked { width: 100%; }
+#selectBMS .panel-body ul.tab { margin-bottom: 10px; width: 100%; }
+#selectBMS .close { margin-top: -22px; }

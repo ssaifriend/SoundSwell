@@ -1,0 +1,12 @@
+body > ul { list-style:none; padding-left: 0; }
+body > ul > li { display: inline; }
+
+.borderAll table { border-collapse: collapse; }
+.borderAll td, .borderAll th { padding: 5px; border: 1px solid #000; }
+.borderAll caption { text-align: left; margin-bottom: 3px; font-weight: bold; }
+
+#Member .borderAll td span { cursor:pointer; }
+#Permission, #Password { display: none; background: white; position: absolute; border: 1px solid #000; padding: 10px; }
+#Permission span, #Password span { cursor:pointer; }
+
+.page { margin: 5px; }

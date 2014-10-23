@@ -1,0 +1,2 @@
+<?php echo $member->get("vcNickname"); ?>님이 로그인 하셨습니다. <a href="/main/logout" class="btn btn-default logout">로그아웃</a>
+<?php if($member->get("emAdmin")=="Admin"){ ?><a href="/admin/main/" class="btn btn-default adminPanel">관리자 패널</a><?php } ?>

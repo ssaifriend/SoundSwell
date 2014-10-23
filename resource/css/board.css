@@ -1,0 +1,9 @@
+
+#Write table { margin: 20px; }
+#Write td, #Write th { border-left: none; border-right: none; }
+#Write input[type=text] { width: 300px; }
+#Write textarea { width: 300px; height: 250px; }
+#Write td.colspan { text-align: center; }
+#Write td.colspan span { cursor: pointer; }
+#Write td.colspan { border-bottom: none; }
+
